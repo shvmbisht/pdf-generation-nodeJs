@@ -261,5 +261,5 @@ var docDefinition = {
 
 
 const doc = new PdfPrinter(fonts).createPdfKitDocument(docDefinition)
-doc.pipe(fs.createWriteStream('myFile.pdf'))
+doc.pipe(fs.createWriteStream('Scorecard.pdf'))
 doc.end()
